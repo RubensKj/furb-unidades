@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Problema1 {
 
     public static void main(String[] args) {
@@ -12,11 +14,16 @@ public class Problema1 {
 
         // Algoritmo: JAVA
 
-        double raio = 2;
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print("Digite um raio: ");
+        double raio = entrada.nextDouble();
         double pi = 3.1415; // Podia ser Math.PI
 
         double area = pi * Math.pow(raio, 2);
+        double area2 = pi * Math.pow(raio, 2);
 
         System.out.println("Área é: " + area);
+        System.out.println("Área2 é: " + area2);
     }
 }
