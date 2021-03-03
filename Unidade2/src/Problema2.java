@@ -28,6 +28,6 @@ public class Problema2 {
 
         int valorSalario = horaTrabalhada * valorHora;
 
-        System.out.println("Número do Funcionário: " + numeroFuncionario + " - Salário: " + valorSalario);
+        System.out.println("Número do Funcionário: " + numeroFuncionario + " - Salário: R$" + valorSalario);
     }
 }
