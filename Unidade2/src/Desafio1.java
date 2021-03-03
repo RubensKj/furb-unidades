@@ -16,7 +16,7 @@ public class Desafio1 {
 
         double valorBMultiplicado = valorB * 7.5;
 
-        double soma = (valorAMultiplicado + valorBMultiplicado) / 11;
+        double soma = (valorBMultiplicado + valorAMultiplicado) / 11;
 
         System.out.println("MEDIA = " + soma);
     }
